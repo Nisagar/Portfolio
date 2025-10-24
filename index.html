@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Nisagar</div>
+            <div class="nav-gap">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#cert">Certification</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        
+    </nav>
+    </div>
+    <nav id="hamburger-nav">
+        <div class="logo">Nisagar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#cert" onclick="toggleMenu()">Certification</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Nisagar</h1>
+            <p class="section__text__p2">React FullStack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Nisagar Developer.pdf')">
+                    Download CV
+                </button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin-logo-png-2028.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/nisagar13/'" />
+
+            </div>
+        </div>
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Joe profile picture" />
+        </div>
+
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.E ECE</p>
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p class="text-container">
+
+                        I'm an enthusiastic React.js developer with a solid foundation in creating dynamic, responsive
+                        web applications. With expertise in front-end technologies—HTML, CSS, JavaScript, and
+                        Bootstrap—and back-end development using Node.js, I focus on crafting user-friendly interfaces
+                        that elevate engagement and enhance user experience. I am certified in Full Stack Development
+                        from a private Chennai institution and hold a Bachelor's degree in Electronics and Communication
+                        Engineering (ECE). My technical skill set includes SQL database familiarity. Driven by a passion
+                        for continuous learning, I stay current with industry trends to bring the latest innovations to
+                        my work.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Academics</h1>
+        <div class="experience-details-container">
+            <div class="about-containers containerss">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">December 2019 - May 2023</h2>
+                    <div class="article-container">
+                        <div class="coll">
+                            Saranathan college of Engineering - Trichy
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">March 2024 — July 2024 </h2>
+                    <div class="article-container">
+                        <div class="coll">
+                            Vcentry - Chennai
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>REACT.JS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>NODE.JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MYSQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>VS CODE</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>GIT</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>GIT-HUB</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>POSTMAN</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="cert">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Certifications</h1>
+        <div class="certificate">
+            <div class="carousel-img">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/Certificate_1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/Certificate_2.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="detailu">
+            <div class="details-container1">
+                <div class="container-table">
+                    <h2 class="experience-sub-title">Full Stack Developement </h2>
+                    <article>
+                        <div>
+                            <p class="vcen">
+                                Vcentry Technologies -Chennai
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">My Projects </p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Travelix</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://friendly-puppy-994e02.netlify.app/'">
+                            Live Preview
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2.jpg" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Clothing Store</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://friendly-puppy-994e02.netlify.app/'">
+                            Live Preview
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:nisagarselva@gmail.com">nisagarselva@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin-logo-png-2028.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/nisagar13/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2025 Nisagar. All Rights Reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./bootstrap.js"></script>
+</body>
+
+</html>
